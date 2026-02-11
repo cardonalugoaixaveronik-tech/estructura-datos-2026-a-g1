@@ -1,0 +1,50 @@
+TALLER 1: ESTRUCTURA DE DATOS
+Responda las siguientes preguntas
+
+1.	Contexto Antes de programar estructuras de datos, es importante reconocer dónde aparecen en situaciones reales. Esta actividad busca que identifiques ejemplos cotidianos donde se utilice la organización de datos.
+Respuesta: En la vida cotidiana utilizamos la organización de datos en muchas situaciones situaciones reales, por ejemplo
+	Biblioteca: Los libros están organizados por categorías, autor o código, lo que facilita encontrarlo rápidamente.
+	Agendar al celular: Los contactos se guardan ordenados por nombre o número para acceder a ellos fácilmente.
+	Supermercado: Los producto están clasificados por secciones (lácteos, frutas, carnes, etc)
+	Redes Sociales: La información de usuarios, publicaciones y mensajes se organiza para mostrarse de forma estructurada.
+	Sistema escolar: Las notas de los estudiantes se almacenan y organizan por materias y periodos.
+	Banco: Los datos de los clientes se guardan en bases de datos organizadas para gestionar cuentas y transacciones.
+
+2.	Actividad
+•	Piensa en una aplicación o sistema que uses frecuentemente.
+Respuesta: Aplicación elegida: WhatsApp
+
+•	Identifica al menos tres tipos de datos que maneja.
+Respuesta: Tres tipos de datos que maneja:
+ 	Contactos (nombres, números de teléfono, fotos de perfil).
+ 	Mensajes (texto, audios, imágenes, videos).
+ 	Estados (publicaciones temporales de los usuarios).
+
+•	Describe cómo crees que esos datos podrían organizarse.
+Respuesta: Cómo podrían organizarse esos datos:
+	Contactos: En una lista ordenada alfabéticamente o por frecuencia de uso.
+	Mensajes: Organizados en conversaciones (chats), separados por cada contacto o grupo y ordenados cronológicamente.
+	Estados: Clasificados por usuario y mostrados según el tiempo de publicación (los más recientes primero).
+
+3.	Ejemplo guía
+•	Aplicación: App de música
+Respuesta: Una app de música es un sistema que permite escuchar canciones en línea o descargarlas.
+¿Para qué se aplica?
+o	Reproducir música en cualquier momento.
+o	Crear listas de reproducción personalizadas.
+o	Buscar canciones por nombre, artista o género.
+o	Guardar canciones favoritas.
+o	Ver el historial de música escuchada.
+
+•	Datos: canciones, artistas, listas de reproducción
+Respuesta: Datos que maneja:
+	Canciones (título, duración, género).
+	Artistas (nombre, álbumes, biografía).
+	Listas de reproducción (nombre de la lista, canciones incluidas).
+•	Organización:
+
+	Las canciones se almacenan en listas o bibliotecas, ordenadas por nombre, artista o género.
+	Los artistas se organizan alfabéticamente y cada uno contiene sus álbumes y canciones.
+	Las listas de reproducción agrupan canciones según el gusto del usuario (por ejemplo: “Favoritas”, “Para estudiar”).
+	El historial guarda las reproducciones recientes en orden cronológico.
+
