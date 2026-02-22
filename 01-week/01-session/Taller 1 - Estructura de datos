@@ -1,0 +1,82 @@
+Responda las siguientes preguntas
+Contexto Antes de programar estructuras de datos, es importante reconocer dónde aparecen en situaciones reales. Esta actividad busca que identifiques ejemplos cotidianos donde se utilice la organización de datos.
+
+Respuesta: En la vida diaria utilizamos muchas aplicaciones que organizan datos constantemente, como redes sociales, tiendas en línea o plataformas de streaming. Estas aplicaciones necesitan estructurar la información para que funcione de manera rápida y ordenada.
+
+
+Actividad
+Piensa en una aplicación o sistema que uses frecuentemente.
+Respuesta: Instagram
+
+Identifica al menos tres tipos de datos que maneja.
+Respuesta: Publicaciones (fotos, videos, descripciones)
+Usuarios (nombre, correo, foto de perfil, seguidores)
+Comentarios y “me gusta”
+
+Describe cómo crees que esos datos podrían organizarse.
+Respuesta: Los usuarios pueden almacenarse en una base de datos con un identificador único para cada cuenta.
+Las publicaciones pueden organizarse en listas asociadas a cada usuario y ordenadas por fecha de publicación.
+Los comentarios y me gusta pueden guardarse en estructuras vinculadas a cada publicación.
+También puede usarse una estructura tipo árbol o grafo para representar la relación entre seguidores y seguidos.
+
+Ejemplo guía
+Aplicación: App de música
+Respuesta: La app debe almacenar: App de música
+
+Datos: canciones, artistas, listas de reproducción
+Repuesta:Canciones
+ID
+Título
+Duración
+Artista
+Álbum
+Género
+
+Artistas
+ID
+Nombre
+País
+Lista de canciones
+
+Listas de reproducción
+ID
+Nombre de la lista
+Fecha de creación
+Conjunto de canciones
+
+
+Organización: listas para canciones, historial para reproducciones recientes
+Respuesta: Para que la aplicación funcione correctamente, los datos se organizan así:
+
+Listas para canciones
+Se utiliza una lista para almacenar canciones porque:
+Permite mantener un orden.
+Se pueden agregar o eliminar canciones fácilmente.
+Se pueden recorrer para reproducirlas en secuencia.
+Ejemplo:
+ListaCanciones = [Canción1, Canción2, Canción3]
+
+Listas de reproducción
+Cada lista de reproducción contiene otra lista interna de canciones.
+Ejemplo:
+Playlist = {
+   nombre: "Favoritas",
+   canciones: [Canción2, Canción5, Canción8]
+}
+
+Historial de reproducciones recientes
+Se puede usar:
+Una cola (queue) para mantener el orden en que se reproducen.
+O una pila (stack) si se quiere acceder rápidamente a la última canción reproducida.
+Ejemplo:
+Historial = [Canción10, Canción7, Canción3]
+
+Estructura general del sistema
+Base de datos con:
+Tabla de canciones
+Tabla de artistas
+Tabla de playlists
+
+Relaciones:
+Un artista → muchas canciones
+Una playlist → muchas canciones
